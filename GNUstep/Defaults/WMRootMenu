@@ -1,0 +1,31 @@
+(
+  WMaker,
+  (Opera, EXEC, Opera),
+  (Terminal, EXEC, urxvt),
+  (Thunar, EXEC, thunar),
+  (Music, EXEC, audacious),
+  (
+    Applications,
+    (Iceweasel, EXEC, iceweasel),
+    (
+      Vedabase,
+      EXEC,
+      "wine \"/home/urukrama/.wine/drive_c/Bhaktivedanta VedaBase 2003/Views.exe\""
+    )
+  ),
+  (Workspaces, WORKSPACE_MENU),
+  (
+    WMaker,
+    (
+      Themes,
+      OPEN_MENU,
+      "-noext /usr/share/WindowMaker/Themes /usr/local/share/WindowMaker/Themes $HOME/GNUstep/Library/WindowMaker/Themes WITH setstyle"
+    ),
+    ("Hide all", HIDE_OTHERS),
+    (Preferences, EXEC, wmakerconf),
+    ("Save Session", SAVE_SESSION),
+    ("Refresh Screen", REFRESH),
+    (Restart, RESTART),
+    (Exit, (Exit, EXIT))
+  )
+)

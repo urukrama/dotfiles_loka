@@ -1,0 +1,155 @@
+{
+  HighlightColor = "#333333";
+  LowerKey = "Mod4+Down";
+  MenuTextFont = "glisp:slant=0:weight=80:width=100:pixelsize=12";
+  MenuTitleExtendSpace = 0;
+  ShadeSpeed = medium;
+  UTitleBack = (solid, "#333333");
+  MoveResizeKey = None;
+  VirtualEdgeDownKey = None;
+  VirtualEdgeLeftKey = None;
+  NormalCursor = (builtin, left_ptr);
+  PTitleBack = (solid, "#333333");
+  WindowShortcut10Key = None;
+  PixmapPath = (
+    "~/GNUstep/Library/WindowMaker/Backgrounds",
+    "~/GNUstep/Library/WindowMaker/Pixmaps",
+    "/usr/local/share/WindowMaker/Backgrounds",
+    "/usr/local/share/WindowMaker/Pixmaps",
+    "/usr/share/WindowMaker/Backgrounds",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/usr/share/pixmaps"
+  );
+  MoveCursor = (
+    bitmap,
+    "/home/urukrama/GNUstep/Library/WindowMaker/Themes/Lumen_Blue.themed/dot_move.xbm",
+    "/home/urukrama/GNUstep/Library/WindowMaker/Themes/Lumen_Blue.themed/dot_move_mask.xbm"
+  );
+  MenuDisabledColor = "#595959";
+  MenuTextBack = (solid, "#333333");
+  MenuStyle = flat;
+  MenuTitleBack = (solid, "#333333");
+  IconBack = (
+    spixmap,
+    "/home/urukrama/GNUstep/Library/WindowMaker/Themes/ShikiBlack.themed/dockbg.png",
+    "#333333"
+  );
+  FTitleBack = (solid, "#333333");
+  MiniaturizeKey = "Mod4+period";
+  ToggleKbdModeKey = None;
+  ResizebarBack = (solid, "#333333");
+  MenuTextColor = "#999999";
+  HighlightTextColor = white;
+  NoWindowUnderDock = Yes;
+  WaitCursor = (
+    bitmap,
+    "/home/urukrama/GNUstep/Library/WindowMaker/Themes/Lumen_Blue.themed/dot_wait.xbm",
+    "/home/urukrama/GNUstep/Library/WindowMaker/Themes/Lumen_Blue.themed/dot_wait_mask.xbm"
+  );
+  MenuTitleColor = white;
+  WorkspaceNameDisplayPosition = bottom;
+  ModifierKey = Mod4;
+  ShadeKey = "Mod4+minus";
+  WindowMenuKey = "Mod4+Escape";
+  FTitleColor = white;
+  AppIconBalloons = YES;
+  WorkspaceBack = (
+    spixmap,
+    "/home/urukrama/GNUstep/Library/WindowMaker/Themes/ShikiBlack.themed/Spectrum_1680x1050.png",
+    black
+  );
+  IconTitleFont = "glispbold:slant=0:weight=200:width=100:pixelsize=9";
+  HideOthersKey = "Shift+Mod4+H";
+  SmoothWorkspaceBack = YES;
+  NextWorkspaceKey = "Shift+Mod4+Right";
+  VirtualEdgeRightKey = None;
+  UTitleColor = "#999999";
+  IconPath = (
+    "~/GNUstep/Library/Icons",
+    "/usr/local/share/WindowMaker/Icons",
+    "/usr/share/WindowMaker/Icons",
+    "/usr/share/icons",
+    "/usr/share/icons/moblin/48x48/mimetypes",
+    "/usr/share/icons/moblin/48x48/actions",
+    "/usr/share/icons/moblin/48x48/categories",
+    "/usr/share/icons/moblin/48x48/apps",
+    "/usr/share/icons/moblin/48x48/devices",
+    "/usr/share/icons/moblin/48x48/places"
+  );
+  PTitleColor = "#999999";
+  WorkspaceBorder = TopBottom;
+  Attraction = NO;
+  NewStyle = YES;
+  DontLinkWorkspaces = NO;
+  HelpBalloons = NO;
+  OpaqueMove = NO;
+  WindowPlaceOrigin = (863, 384);
+  WindowPlacement = smart;
+  CClipTitleColor = "#595959";
+  DisableMiniwindows = YES;
+  WindowShortcut8Key = None;
+  ClipTitleColor = "#999999";
+  WindowShortcut9Key = None;
+  IconTitleColor = "#999999";
+  DisableBlinking = YES;
+  Workspace10Key = None;
+  CycleWorkspaces = YES;
+  IconSlideSpeed = medium;
+  RaiseKey = "Mod4+Up";
+  AntialiasedText = YES;
+  MouseMiddleButtonAction = OpenWindowListMenu;
+  HideKey = "Mod4+H";
+  PrevWorkspaceKey = "Shift+Mod4+Left";
+  MiniwindowTitleBalloons = NO;
+  WindowTitleFont = "glispbold:slant=0:weight=200:width=100:pixelsize=12";
+  NoWindowOverDock = YES;
+  ClipTitleFont = "glispbold:slant=0:weight=80:width=100:pixelsize=12";
+  CloseKey = "Mod4+Q";
+  FocusNextKey = "Mod4+Tab";
+  DisplayFont = "glispbold:slant=0:weight=200:width=100:pixelsize=9";
+  WindowShortcut1Key = "Mod4+1";
+  MouseRightButtonAction = OpenApplicationsMenu;
+  WindowShortcut2Key = "Mod4+2";
+  WindowTitleExtendSpace = 0;
+  WindowShortcut3Key = "Mod4+3";
+  WindowShortcut4Key = "Mod4+4";
+  DisableClip = YES;
+  MoveDisplay = none;
+  WindowShortcut5Key = "Mod4+5";
+  MaximizeKey = "Mod4+M";
+  MenuTitleFont = "glispbold:slant=0:weight=200:width=100:pixelsize=12";
+  WindowShortcut6Key = "Mod4+6";
+  RootMenuKey = "Mod4+A";
+  LargeDisplayFont = "glispbold:slant=0:weight=200:width=100:pixelsize=24";
+  MenuTextExtendSpace = 0;
+  WindowShortcut7Key = None;
+  VirtualEdgeUpKey = None;
+  MouseLeftButtonAction = SelectWindows;
+  WorkspaceBorderSize = 1;
+  ResizeDisplay = none;
+  Workspace7Key = "Mod4+F7";
+  Workspace6Key = "Mod4+F6";
+  Workspace5Key = "Mod4+F5";
+  Workspace4Key = "Mod4+F4";
+  ResizeCursor = (
+    bitmap,
+    "/home/urukrama/GNUstep/Library/WindowMaker/Themes/Lumen_Blue.themed/dot_resize.xbm",
+    "/home/urukrama/GNUstep/Library/WindowMaker/Themes/Lumen_Blue.themed/dot_resize_mask.xbm"
+  );
+  Workspace3Key = "Mod4+F3";
+  Workspace2Key = "Mod4+F2";
+  FocusPrevKey = "Shift+Mod4+Tab";
+  Workspace1Key = "Mod4+F1";
+  WindozeCycling = Yes;
+  CirculateRaise = NO;
+  TitleJustify = right;
+  ScreenSwitchKey = None;
+  DisableSound = YES;
+  WindowListKey = "Mod4+W";
+  IconTitleBack = "#333333";
+  OpenTransientOnOwnerWorkspace = YES;
+  Workspace9Key = None;
+  HMaximizeKey = None;
+  Workspace8Key = "Mod4+F8";
+  MouseWheelAction = SwitchWorkspaces;
+}

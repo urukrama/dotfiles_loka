@@ -1,0 +1,378 @@
+{
+  x11.MPlayer = {
+    NoResizebar = Yes;
+    NoMiniaturizeButton = Yes;
+  };
+  vlc.Vlc = {
+    NoResizebar = Yes;
+    Icon = hornsey.png;
+    NoMiniaturizeButton = Yes;
+  };
+  feh.feh = {
+    NoResizebar = Yes;
+    NoMiniaturizeButton = Yes;
+  };
+  catfish.pyc.Catfish.pyc = {
+    Icon = evince.png;
+  };
+  gcolor2.Gcolor2 = {
+    Icon = "/home/urukrama/GNUstep/Library/WindowMaker/CachedPixmaps/gcolor2.Gcolor2.xpm";
+  };
+  lyx.Lyx = {
+    Icon = style.png;
+  };
+  brasero.Brasero = {
+    Icon = "/home/urukrama/GNUstep/Library/WindowMaker/CachedPixmaps/brasero.Brasero.xpm";
+  };
+  leafpad.Leafpad = {
+    NoResizebar = Yes;
+    Icon = "accessories-text-editor.png";
+    NoMiniaturizeButton = Yes;
+    SharedAppIcon = Yes;
+  };
+  "icedove-bin.Icedove-bin" = {
+    Icon = evolution.png;
+  };
+  image_window.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-work.tif";
+  };
+  KTerm = {
+    Icon = GNUterm.tiff;
+  };
+  Logo.WMPanel = {
+    Icon = GNUstep.tiff;
+  };
+  Dockit = {
+    Icon = GNUstep.tiff;
+  };
+  tip_of_the_day.Gimp = {
+    NoResizebar = Yes;
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp2.tif";
+    KeepOnTop = Yes;
+    NoCloseButton = Yes;
+    NoMiniaturizeButton = Yes;
+  };
+  color_palette.Gimp = {
+    NoResizebar = Yes;
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-palette.tif";
+  };
+  "libreoffice-writer" = {
+    NoResizebar = Yes;
+    Icon = "ooo-writer.png";
+    NoMiniaturizeButton = Yes;
+  };
+  brushselection.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-brushes.tif";
+  };
+  WPrefs = {
+    Icon = "/usr/lib/GNUstep/System/Applications/WPrefs.app/WPrefs.tiff";
+  };
+  XTerm = {
+    Icon = GNUterm.tiff;
+  };
+  Views.exe.Wine = {
+    Icon = "/home/urukrama/GNUstep/Library/WindowMaker/CachedPixmaps/Views.exe.Wine.xpm";
+  };
+  groupLeader.WPrefs = {
+    Icon = "/usr/share/icons/moblin/48x48/apps/gnome-control-center.png";
+  };
+  Rxvt = {
+    Icon = GNUterm.tiff;
+  };
+  wprefs.WPrefs = {
+    NoResizebar = Yes;
+    NoBorder = Yes;
+    AlwaysUserIcon = Yes;
+    Icon = "/usr/share/icons/moblin/48x48/apps/gnome-control-center.png";
+    NoMiniaturizeButton = Yes;
+  };
+  filezilla.Filezilla = {
+    Icon = "moblin-sync.png";
+  };
+  opera.Opera = {
+    NoResizebar = Yes;
+    NoMiniaturizeButton = Yes;
+  };
+  startupdialog.Opera = {
+    NoResizebar = Yes;
+    Icon = browser.png;
+    NoMiniaturizeButton = Yes;
+  };
+  "script-fu.Script-fu" = {
+    Icon = "wmaker-gimp-script-fu.tif";
+  };
+  geany.Geany = {
+    NoResizebar = Yes;
+    Icon = "/home/urukrama/GNUstep/Library/WindowMaker/CachedPixmaps/geany.Geany.xpm";
+    NoMiniaturizeButton = Yes;
+  };
+  toolbox.Gimp = {
+    NoAppIcon = Yes;
+    Icon = "wmaker-gimp2.tif";
+  };
+  gimp.Gimp = {
+    NoResizebar = Yes;
+    AlwaysUserIcon = Yes;
+    StartWorkspace = Two;
+    Icon = "ooo-draw.png";
+    NoMiniaturizeButton = Yes;
+  };
+  panel = {
+    NoAppIcon = Yes;
+  };
+  Update.Icedove = {
+    Icon = "moblin-evolution.png";
+  };
+  emacs = {
+    Icon = "wmaker-emacs.tif";
+  };
+  "*" = {
+    Icon = defaultAppIcon.tiff;
+  };
+  mousepad.Mousepad = {
+    NoResizebar = Yes;
+    Icon = "/home/urukrama/GNUstep/Library/WindowMaker/CachedPixmaps/mousepad.Mousepad.xpm";
+    NoMiniaturizeButton = Yes;
+  };
+  win.Xpdf = {
+    NoResizebar = Yes;
+    NoMiniaturizeButton = Yes;
+  };
+  audacious.Audacious = {
+    NoResizebar = Yes;
+    Icon = "media-player.png";
+    NoMiniaturizeButton = Yes;
+  };
+  synaptic.Synaptic = {
+    NoResizebar = Yes;
+    Icon = "gpk-prefs.png";
+    NoMiniaturizeButton = Yes;
+  };
+  patternselection.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-patterns.tif";
+  };
+  "VCLSalFrame.DocumentWindow.LibreOffice 3.3" = {
+    NoResizebar = Yes;
+    Icon = "/home/urukrama/GNUstep/Library/WindowMaker/CachedPixmaps/VCLSalFrame.DocumentWindow.LibreOffice 3.3.xpm";
+    NoMiniaturizeButton = Yes;
+  };
+  gradient_editor.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-gradient.tif";
+  };
+  "VCLSalFrame.DocumentWindow.LibreOffice 3.4" = {
+    NoResizebar = Yes;
+    Icon = "/home/urukrama/GNUstep/Library/WindowMaker/CachedPixmaps/VCLSalFrame.DocumentWindow.LibreOffice 3.4.xpm";
+    NoMiniaturizeButton = Yes;
+  };
+  thunar.Thunar = {
+    NoResizebar = Yes;
+    Icon = "file-manager.png";
+    NoMiniaturizeButton = Yes;
+  };
+  Msgcompose.Icedove = {
+    NoResizebar = Yes;
+    NoMiniaturizeButton = Yes;
+  };
+  "gimp-2.6.Gimp-2.6" = {
+    NoResizebar = Yes;
+    StartWorkspace = "Workspace 2";
+    Icon = "ooo-draw.png";
+    NoMiniaturizeButton = Yes;
+    SharedAppIcon = Yes;
+  };
+  lxappearance.Lxappearance = {
+    NoResizebar = Yes;
+    Icon = "gnome-settings-default-applications.png";
+    NoMiniaturizeButton = Yes;
+  };
+  Navigator.Iceweasel = {
+    NoResizebar = Yes;
+    NoMiniaturizeButton = Yes;
+  };
+  Logo.WMDock = {
+    Icon = "help-contents.png";
+  };
+  agave.Agave = {
+    NoResizebar = Yes;
+    Icon = "/home/urukrama/GNUstep/Library/WindowMaker/CachedPixmaps/agave.Agave.xpm";
+    NoMiniaturizeButton = Yes;
+  };
+  Mail.Icedove = {
+    NoResizebar = Yes;
+    NoMiniaturizeButton = Yes;
+  };
+  "xfce4-terminal.Xfce4-terminal" = {
+    NoResizebar = Yes;
+    Icon = "gnome-terminal.png";
+    NoMiniaturizeButton = Yes;
+  };
+  rhythmbox.Rhythmbox = {
+    NoResizebar = Yes;
+    Icon = "moblin-gnome-sound-recorder.png";
+    NoMiniaturizeButton = Yes;
+  };
+  indexed_color_palette.Gimp = {
+    NoResizebar = Yes;
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-palette.tif";
+  };
+  Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp2.tif";
+  };
+  tool_options.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-tooloption.tif";
+  };
+  "VCLSalFrame.libreoffice-writer" = {
+    Icon = "ooo-writer.png";
+  };
+  xarchiver.Xarchiver = {
+    NoResizebar = Yes;
+    Icon = "/home/urukrama/GNUstep/Library/WindowMaker/CachedPixmaps/xarchiver.Xarchiver.xpm";
+    NoMiniaturizeButton = Yes;
+  };
+  orage.Orage = {
+    Icon = dates.png;
+  };
+  audacious2.Audacious2 = {
+    NoResizebar = Yes;
+    Icon = "media-player.png";
+    NoMiniaturizeButton = Yes;
+  };
+  gtkpod.Gtkpod = {
+    NoResizebar = Yes;
+    NoMiniaturizeButton = Yes;
+  };
+  "Mozilla-bin" = {
+    Icon = "wmaker-nav.tif";
+  };
+  Toplevel.Icedove = {
+    NoResizebar = Yes;
+    NoMiniaturizeButton = Yes;
+  };
+  "/usr/bin/gnumeric./usr/bin/gnumeric" = {
+    Icon = calc.png;
+  };
+  Dialog.Icedove = {
+    NoResizebar = Yes;
+    NoMiniaturizeButton = Yes;
+  };
+  xv.MPlayer = {
+    NoResizebar = Yes;
+    NoTitlebar = Yes;
+  };
+  gimp_startup.Gimp = {
+    NoResizebar = Yes;
+    AlwaysUserIcon = Yes;
+    NotMiniaturizable = Yes;
+    NotClosable = Yes;
+    Icon = "wmaker-gimp2.tif";
+    NoTitlebar = Yes;
+  };
+  Extension.Icedove = {
+    Icon = "/home/urukrama/GNUstep/Library/WindowMaker/CachedPixmaps/Extension.Icedove.xpm";
+  };
+  Tile.WMClip = {
+    Icon = clip.tiff;
+  };
+  gksu.Gksu = {
+    Icon = "gpk-prefs.png";
+  };
+  Dialog.Iceweasel = {
+    NoResizebar = Yes;
+    NoMiniaturizeButton = Yes;
+  };
+  mirage.Mirage = {
+    Icon = "/home/urukrama/GNUstep/Library/WindowMaker/CachedPixmaps/mirage.Mirage.xpm";
+  };
+  stardict.Stardict = {
+    NoResizebar = Yes;
+    Icon = "moblin-accessories-dictionary.png";
+    NoMiniaturizeButton = Yes;
+  };
+  Audacity.Audacity = {
+    Icon = "/home/urukrama/GNUstep/Library/WindowMaker/CachedPixmaps/Audacity.Audacity.xpm";
+  };
+  gmc = {
+    NoAppIcon = Yes;
+    SkipWindowList = Yes;
+    Omnipresent = Yes;
+  };
+  urxvt.URxvt = {
+    NoResizebar = Yes;
+    Icon = "gnome-terminal.png";
+  };
+  layers_and_channels.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-layers.tif";
+  };
+  texworks.Texworks = {
+    Icon = "gnome-mines.png";
+  };
+  gmrun.Gmrun = {
+    Icon = "moblin-gpk-repo.png";
+  };
+  gmessage.Gmessage = {
+    NoResizebar = Yes;
+    Icon = "/home/urukrama/GNUstep/Library/WindowMaker/CachedPixmaps/gmessage.Gmessage.xpm";
+    NoCloseButton = Yes;
+    NoMiniaturizeButton = Yes;
+  };
+  zenity.Zenity = {
+    NoResizebar = Yes;
+    Icon = "/home/urukrama/GNUstep/Library/WindowMaker/CachedPixmaps/zenity.Zenity.xpm";
+    NoMiniaturizeButton = Yes;
+  };
+  filechooserdialog.Opera = {
+    NoResizebar = Yes;
+    NoMiniaturizeButton = Yes;
+  };
+  gummi.Gummi = {
+    Icon = "gnome-mines.png";
+  };
+  Logo.WMClip = {
+    Icon = "gtk-add.png";
+  };
+  gnumeric.Gnumeric = {
+    Icon = calc.png;
+  };
+  WMSoundServer = {
+    Icon = Sound.tiff;
+  };
+  preferences.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-prefs.tif";
+  };
+  "VCLSalFrame.DocumentWindow.libreoffice-impress" = {
+    Icon = "openofficeorg-impress.png";
+  };
+  "Script-fu" = {
+    Icon = "wmaker-gimp-script-fu.tif";
+  };
+  Netscape = {
+    Icon = "wmaker-netscape.tif";
+  };
+  NXTerm = {
+    Icon = GNUterm.tiff;
+  };
+  "thunar-volman-settings.Thunar-volman-settings" = {
+    Icon = "/home/urukrama/GNUstep/Library/WindowMaker/CachedPixmaps/thunar-volman-settings.Thunar-volman-settings.xpm";
+  };
+  wmakerconf.Wmakerconf = {
+    NoResizebar = Yes;
+    NoAppIcon = Yes;
+    AlwaysUserIcon = Yes;
+    Icon = "gnome-display-properties.png";
+    NoMiniaturizeButton = Yes;
+  };
+  Update.Iceweasel = {
+    Icon = "/home/urukrama/GNUstep/Library/WindowMaker/CachedPixmaps/Update.Iceweasel.xpm";
+  };
+}

@@ -1,0 +1,417 @@
+{
+  Dock = {
+    Lowered = Yes;
+    Applications1152 = (
+      {
+        Name = Logo.WMDock;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = WPrefs;
+        Position = "0,0";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "xfce4-terminal %s";
+        Name = "xfce4-terminal.Xfce4-terminal";
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = "xfce4-terminal";
+        Position = "0,4";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "icedove-bin %s";
+        Name = "icedove-bin.Icedove-bin";
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = icedove;
+        Position = "0,2";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "thunar %s";
+        Name = thunar.Thunar;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = thunar;
+        Position = "0,3";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "leafpad %s";
+        Name = leafpad.Leafpad;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = leafpad;
+        Position = "0,6";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "opera %s";
+        Name = startupdialog.Opera;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = opera;
+        Position = "0,1";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "gmrun %s";
+        Name = gmrun.Gmrun;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = gmrun;
+        Position = "0,16";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "wmclockmon %s";
+        Name = wmclockmon.DockApp;
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = wmclockmon;
+        Position = "0,17";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "stardict %s";
+        Name = stardict.Stardict;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = stardict;
+        Position = "0,13";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "synaptic %s";
+        Name = synaptic.Synaptic;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = "gksu -g synaptic";
+        Position = "0,14";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "lxappearance %s";
+        Name = lxappearance.Lxappearance;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = lxappearance;
+        Position = "0,15";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "audacious %s";
+        Name = audacious.Audacious;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = audacious;
+        Position = "0,5";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "/usr/lib/libreoffice/program/soffice.bin -writer -splash-pipe=5 %s";
+        Name = "VCLSalFrame.libreoffice-writer";
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = "/usr/lib/libreoffice/program/soffice.bin -writer -splash-pipe=5";
+        Position = "0,12";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "gimp %s";
+        Name = gimp.Gimp;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = gimp;
+        Position = "0,8";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "texworks %s";
+        Name = texworks.Texworks;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = texworks;
+        Position = "0,11";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "filezilla %s";
+        Name = filezilla.Filezilla;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = filezilla;
+        Position = "0,7";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "catfish.pyc %s";
+        Name = "catfish\\.pyc.Catfish\\.pyc";
+        Lock = No;
+        AutoLaunch = No;
+        Command = catfish.pyc;
+        Position = "0,10";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "gnumeric %s";
+        Name = gnumeric.Gnumeric;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = gnumeric;
+        Position = "0,9";
+        Forced = No;
+        BuggyApplication = No;
+      }
+    );
+    Position = "-64,0";
+    Applications = (
+      {
+        Name = Logo.WMDock;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = WPrefs;
+        Position = "0,0";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "xfce4-terminal %s";
+        Name = "xfce4-terminal.Xfce4-terminal";
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = "xfce4-terminal";
+        Position = "0,4";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "icedove-bin %s";
+        Name = "icedove-bin.Icedove-bin";
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = icedove;
+        Position = "0,2";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "thunar %s";
+        Name = thunar.Thunar;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = thunar;
+        Position = "0,3";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "leafpad %s";
+        Name = leafpad.Leafpad;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = leafpad;
+        Position = "0,6";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "opera %s";
+        Name = startupdialog.Opera;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = opera;
+        Position = "0,1";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "gmrun %s";
+        Name = gmrun.Gmrun;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = gmrun;
+        Position = "0,16";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "wmclockmon %s";
+        Name = wmclockmon.DockApp;
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = wmclockmon;
+        Position = "0,17";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "stardict %s";
+        Name = stardict.Stardict;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = stardict;
+        Position = "0,13";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "synaptic %s";
+        Name = synaptic.Synaptic;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = "gksu -g synaptic";
+        Position = "0,14";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "lxappearance %s";
+        Name = lxappearance.Lxappearance;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = lxappearance;
+        Position = "0,15";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "audacious %s";
+        Name = audacious.Audacious;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = audacious;
+        Position = "0,5";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "/usr/lib/libreoffice/program/soffice.bin -writer -splash-pipe=5 %s";
+        Name = "VCLSalFrame.libreoffice-writer";
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = "/usr/lib/libreoffice/program/soffice.bin -writer -splash-pipe=5";
+        Position = "0,12";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "gimp %s";
+        Name = gimp.Gimp;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = gimp;
+        Position = "0,8";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "texworks %s";
+        Name = texworks.Texworks;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = texworks;
+        Position = "0,11";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "filezilla %s";
+        Name = filezilla.Filezilla;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = filezilla;
+        Position = "0,7";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "catfish.pyc %s";
+        Name = "catfish\\.pyc.Catfish\\.pyc";
+        Lock = No;
+        AutoLaunch = No;
+        Command = catfish.pyc;
+        Position = "0,10";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "gnumeric %s";
+        Name = gnumeric.Gnumeric;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = gnumeric;
+        Position = "0,9";
+        Forced = No;
+        BuggyApplication = No;
+      }
+    );
+  };
+  Clip = {
+    Name = Logo.WMClip;
+    Lock = No;
+    AutoLaunch = No;
+    Command = "-";
+    Position = "0,0";
+    Forced = No;
+    BuggyApplication = No;
+  };
+  Workspace = One;
+  Menus = {
+    SwitchMenu = ("1985,1135");
+  };
+  Workspaces = (
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = One;
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = Two;
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = Three;
+    }
+  );
+  Applications = ();
+}
