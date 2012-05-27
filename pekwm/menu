@@ -1,0 +1,121 @@
+# Menu config for pekwm
+
+  # Variables
+  INCLUDE = "vars"
+
+MocpMenu = "mocp" {
+	Entry = "Pause/Play" { Actions = "Exec mocp -G &" }
+	Entry = "Next Track" { Actions = "Exec mocp -f &" }
+	Entry = "Previous Track" { Actions = "Exec mocp -r &" }
+	Separator {}
+	Entry = "Shuffle" { Actions = "Exec mocp -t shuffle &" }
+	Entry = "Repeat" { Actions = "Exec mocp -t repeat &" }
+	Entry = "Current Song" { Actions = "Exec mocp -q --format '%artist -- %song [%tl]' | dmenu -nb '#F4F3F0' -sb '#D2CBBA' -nf '#878377' -sf '#6e6b62' -fn '-*-nu-*-*-*-*-*-*-*-*-*-*-*-*' &" }
+}
+
+
+  RootMenu = "Pekwm" {
+  	Entry = "Opera" { Actions = "Exec opera &" }
+  	Entry = "Thunar" { Actions = "Exec thunar &" }
+  	Entry = "Terminal" { Actions = "Exec xfce4-terminal &" }
+	#Entry = "Mousepad" { Actions = "Exec mousepad &" }
+  	#	SubMenu = "Workspace" {
+  			# Create goto menu once per pekwm config reload. The fast way that
+  			# will work for most if not all users.
+  	#		COMMAND = "/usr/share/pekwm/scripts/pekwm_ws_menu.sh send"
+  			# Create goto menu every time the menu is opened. The slow way.
+  			# This is what you want if you are using external tools to make
+  			# the amount of workspaces something else than what you define in
+  			# ~/.pekwm/config. You will know if you want this.
+  			# Entry = "" { Actions = "Dynamic /usr/share/pekwm/scripts/pekwm_ws_menu.sh send dynamic" }
+  	#	}
+  	#	Entry = "Window.." { Actions = "ShowMenu GotoClient True" }
+  	#}
+	#Separator {}
+	Submenu = "Apps" {
+		Entry = "Geany" { Actions = "Exec geany &" }
+		Entry = "Texworks" { Actions = "Exec texworks &" }
+		Entry = "LibreOffice" { Actions = "Exec lowriter &" }
+		Entry = "Vedabase" { Actions = "Exec vedabase &" }
+		Entry = "StarDict" { Actions = "Exec stardict &" }
+		Entry = "Iceweasel" { Actions = "Exec  iceweasel &" }
+		Entry = "Skype" { Actions = "Exec  skype &" }
+	}
+	Submenu = "System" {
+		Entry = "Synaptic" { Actions = "Exec gksu -g synaptic &" }
+		Entry = "Themes" { Actions = "Exec lxappearance &" }
+  		Submenu = "Tint2" {
+  			Entry = "Config" { Actions = "Exec mousepad /home/urukrama/.config/tint2/Infinity_glisp.tint2rc &" }
+  			Entry = "Tint2 On" { Actions = "Exec tint2 &" }
+  			Entry = "Tint2 Off" { Actions = "Exec killall tint2 &" }
+  		}
+  		Submenu = "Conky" {
+  			Entry = "Config" { Actions = "Exec mousepad /home/urukrama/.conkyrc &" }
+  			Entry = "Conky On" { Actions = "Exec conky &" }
+  			Entry = "Conky Off" { Actions = "Exec killall conky &" }
+  		}		
+  		Submenu = "Xcompmgr" {
+  			Entry = "On" { Actions = "Exec xcompmgr -cC -t-3 -l-5 -r5 &" }
+  			Entry = "Off" { Actions = "Exec killall xcompmgr &" }
+  		}		
+	}
+	Separator {}
+  	Submenu = "Pekwm" {
+  		Submenu = "Themes" {
+  			Entry { Actions = "Dynamic /usr/share/pekwm/scripts/pekwm_themeset.sh /usr/share/pekwm/themes" }
+  			Entry { Actions = "Dynamic /usr/share/pekwm/scripts/pekwm_themeset.sh ~/.pekwm/themes" }
+  		}
+  		Entry = "Reload" { Actions = "Reload" }
+  		Entry = "Restart" { Actions = "Restart" }
+  		Entry = "Exit" { Actions = "Exit" }
+  	}
+}
+
+WindowMenu = "Window Menu" {
+SubMenu = "Send To" {
+	  	Entry = "All desktops" { Actions = "Toggle Sticky" }
+	Separator {}
+  		# Create sendto menu once per pekwm config reload. The fast way that
+  		# will work for most if not all users.
+  		COMMAND = "/usr/share/pekwm/scripts/pekwm_ws_menu.sh send"
+  		# Create sendto menu every time the menu is opened. The slow way.
+  		# This is what you want if you are using external tools to make
+  		# the amount of workspaces something else than what you define in
+  		# ~/.pekwm/config. You will know if you want this.
+  		# Entry = "" { Actions = "Dynamic /usr/share/pekwm/scripts/pekwm_ws_menu.sh send dynamic" }
+  	}
+  	Entry = "(Un)Shade" { Actions = "Toggle Shaded" }
+  	Entry = "Iconify " { Actions = "Set Iconified" }
+  	#Entry = "Command.." { Actions = "ShowCmdDialog" }
+
+  	Submenu = "Maximize" {
+  		Entry = "Full" { Actions = "Toggle Maximized True True" }
+  		Entry = "Horizontal" { Actions = "Toggle Maximized True False" }
+  		Entry = "Vertical" { Actions = "Toggle Maximized False True" }
+  	}
+  	Submenu = "Fill" {
+  		Entry = "Full" { Actions = "MaxFill True True" }
+  		Entry = "Horizontal" { Actions = "MaxFill True False" }
+  		Entry = "Vertical" { Actions = "MaxFill False True" }
+  	}
+  	Submenu = "Stacking" {
+  		Entry = "Raise " { Actions = "Raise" }
+  		Entry = "Lower" { Actions = "Lower" }
+  		Entry = "Always On Top " { Actions = "Toggle AlwaysOnTop" }
+  		Entry = "Always Below" { Actions = "Toggle AlwaysBelow" }
+  	}
+  	Submenu = "Decor" {
+  		Entry = "Decor" { Actions = "Toggle DecorBorder; Toggle DecorTitlebar" }
+  		Entry = "Border" { Actions = "Toggle DecorBorder" }
+  		Entry = "Titlebar" { Actions = "Toggle DecorTitlebar" }
+
+  	}
+  	Submenu = "Skip" {
+  		Entry = "Menus" { Actions = "Toggle Skip Menus" }
+  		Entry = "Focus Toggle" { Actions = "Toggle Skip FocusToggle" }
+  		Entry = "Snap" { Actions = "Toggle Skip Snap" }
+  	}
+  Separator {}
+  	Entry = "Close" { Actions = "Close" }
+  	Submenu = "Kill" { Entry = "Kill application" { Actions = "Kill" } }
+  }

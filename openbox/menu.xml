@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu>
+	<menu id="root-menu" label="Openbox 3">
+		<separator label="+ +"/>
+		<item label="Opera">
+			<action name="Execute">
+				<execute>
+					opera
+				</execute>
+			</action>
+		</item>
+		<item label="Thunar">
+			<action name="Execute">
+				<execute>
+					thunar
+				</execute>
+			</action>
+		</item>
+		<item label="Terminal">
+			<action name="Execute">
+				<execute>
+					urxvtc
+				</execute>
+			</action>
+		</item>
+		<item label="Mousepad">
+			<action name="Execute">
+				<execute>
+					mousepad
+				</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="root-menu-37633" label="Apps">
+			<menu id="38" label="Text">
+				<separator label="Text"/>
+				<item label="Notecase">
+					<action name="Execute">
+						<execute>
+							notecase
+						</execute>
+					</action>
+				</item>
+				<item label="Texworks">
+					<action name="Execute">
+						<execute>
+							texworks
+						</execute>
+					</action>
+				</item>
+				<item label="Gedit">
+					<action name="Execute">
+						<execute>
+							gedit
+						</execute>
+					</action>
+				</item>
+				<separator/>
+				<item label="OpenOffice Writer">
+					<action name="Execute">
+						<execute>
+						oowriter
+						</execute>
+					</action>
+				</item>
+				<item label="OpenOffice Impress">
+					<action name="Execute">
+						<execute>
+						ooimpress
+						</execute>
+					</action>
+				</item>
+				<item label="OpenOffice">
+					<action name="Execute">
+						<execute>
+						ooffice
+						</execute>
+					</action>
+				</item>
+				<separator/>
+				<item label="Pybliographic">
+					<action name="Execute">
+						<execute>
+							pybliographic
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="root-menu-363610" label="Books">
+				<separator label="Books"/>
+				<item label="Bhaktivedanta Vedabase">
+					<action name="Execute">
+						<execute>
+						wine &quot;/home/urukrama/.wine/drive_c/Bhaktivedanta VedaBase 2003/Views.exe&quot; &quot;/home/urukrama/.wine/drive_c/Bhaktivedanta VedaBase 2003/Nfo/Bhaktivedanta Vedabase 2003.nfo&quot;
+						</execute>
+					</action>
+				</item>
+				<item label="StarDict">
+					<action name="Execute">
+						<execute>
+						stardict
+						</execute>
+					</action>
+				</item>
+				<item label="Thesaurus">
+					<action name="Execute">
+						<execute>
+						wine &quot;/home/urukrama/.wine/drive_c/Program Files/WordView/WORDVIEW.EXE&quot; &quot;/home/urukrama/.wine/drive_c/Program Files/Thesaurus/Index.rit6&quot;
+						</execute>
+					</action>
+				</item>
+				<item label="Comix">
+					<action name="Execute">
+						<execute>
+						comix
+						</execute>
+					</action>
+				</item>
+				<separator/>
+				<item label="Bibshelf">
+					<action name="Execute">
+						<execute>
+						bibshelf
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="5" label="Internet">
+				<separator label="Internet"/>
+				<item label="Epiphany">
+					<action name="Execute">
+						<execute>
+							epiphany
+						</execute>
+					</action>
+				</item>
+				<item label="Opera">
+					<action name="Execute">
+						<execute>
+						opera
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="7" label="Media">
+				<separator label="Media"/>
+				<item label="Audacious">
+					<action name="Execute">
+						<execute>
+						audacious
+						</execute>
+					</action>
+				</item>
+				<item label="VLC Media Player">
+					<action name="Execute">
+						<execute>
+						vlc
+						</execute>
+					</action>
+				</item>
+				<item label="Movie Player">
+					<action name="Execute">
+						<execute>
+						totem
+						</execute>
+					</action>
+				</item>
+			</menu>
+		</menu>
+		<menu id="root-menu-174722" label="System">
+			<separator label="System"/>
+			<menu id="root-menu-174722-4133" label="Wallpapers">
+				<item label="Caitanyacandraya">
+					<action name="Execute">
+						<execute>
+							feh --bg-scale &quot;/home/urukrama/Images/Wallpapers/caitanya.png&quot;
+						</execute>
+					</action>
+				</item>
+				<item label="Erde">
+					<action name="Execute">
+						<execute>
+							feh --bg-center &quot;/home/urukrama/Images/gull.jpg&quot;
+						</execute>
+					</action>
+				</item>
+				<item label="Flatwall">
+					<action name="Execute">
+						<execute>
+							feh --bg-scale &quot;feh --bg-scale &quot;/home/urukrama/Images/Flatwall-1920x1080.jpg&quot;
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="root-menu-174722-495624" label="Clean Up">
+				<item label="Remove flash files">
+					<action name="Execute">
+						<execute>
+							rm -rf /home/urukrama/.adobe/Flash_Player /home/urukrama/.macromedia/Flash_Player
+						</execute>
+					</action>
+				</item>
+				<item label="Clear Opera cache">
+					<action name="Execute">
+						<execute>
+							rm -rf /home/urukrama/.opera/cache /home/urukrama/.opera/temporary_downloads /home/urukrama/.opera/opcache /home/urukrama/.opera/application_cache /home/urukrama/.opera/pstorage
+						</execute>
+					</action>
+				</item>
+				<item label="Empty /tmp">
+					<action name="Execute">
+						<execute>
+							rm -rf /tmp/
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="root-menu-174722-3750" label="Redshift">
+				<item label="On">
+					<action name="Execute">
+						<execute>
+							redshift -l 51.4:1.1 -t 5700:4000
+						</execute>
+					</action>
+				</item>
+				<item label="Off">
+					<action name="Execute">
+						<execute>
+							killall redshift
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="root-menu-174722-26438" label="Conky">
+				<item label="Conky on">
+					<action name="Execute">
+						<execute>
+							conky
+						</execute>
+					</action>
+				</item>
+				<item label="Conky off">
+					<action name="Execute">
+						<execute>
+							killall conky
+						</execute>
+					</action>
+				</item>
+				<item label="Edit config file">
+					<action name="Execute">
+						<execute>
+							leafpad /home/urukrama/.conkyrc
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="root-menu-174722-474840" label="Xcompmgr">
+				<item label="On">
+					<action name="Execute">
+						<execute>
+							xcompmgr -cC -t-3 -l-5 -r5
+						</execute>
+					</action>
+				</item>
+				<item label="Off">
+					<action name="Execute">
+						<execute>
+							killall xcompmgr
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<item label="Synaptic PM">
+				<action name="Execute">
+					<execute>
+						gksu -g synaptic
+					</execute>
+				</action>
+			</item>
+			<item label="Themes">
+				<action name="Execute">
+					<execute>
+						xfce4-settings-manager
+					</execute>
+				</action>
+			</item>
+			<item label="Root Thunar">
+				<action name="Execute">
+					<execute>
+						gksu -g thunar
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="40" label="Openbox">
+			<separator label="Openbox"/>
+			<menu id="40-584817" label="Config">
+				<menu execute="~/.config/openbox/scripts/genmenu" id="themesmenu" label="Themes"/>
+				<item label="Obconf">
+					<action name="Execute">
+						<execute>
+							obconf
+						</execute>
+					</action>
+				</item>
+				<item label="Obmenu">
+					<action name="Execute">
+						<execute>
+							obmenu
+						</execute>
+					</action>
+				</item>
+				<separator/>
+				<item label="Autostart">
+					<action name="Execute">
+						<execute>
+							leafpad &quot;/home/urukrama/.config/openbox/autostart.sh&quot;
+						</execute>
+					</action>
+				</item>
+				<item label="Configuration">
+					<action name="Execute">
+						<execute>
+							leafpad &quot;/home/urukrama/.config/openbox/rc.xml&quot;
+						</execute>
+					</action>
+				</item>
+				<item label="Menu">
+					<action name="Execute">
+						<execute>
+							leafpad &quot;/home/urukrama/.config/openbox/menu.xml&quot;
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<separator/>
+			<item label="Reconfigure">
+				<action name="Reconfigure"/>
+			</item>
+			<item label="Lock Screen">
+				<action name="Execute">
+					<execute>
+						slock
+					</execute>
+				</action>
+			</item>
+			<item label="Log out">
+				<action name="Execute">
+					<execute>
+						xfce4-session-logout
+					</execute>
+				</action>
+			</item>
+		</menu>
+	</menu>
+</openbox_menu>
