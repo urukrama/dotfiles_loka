@@ -1,0 +1,18 @@
+#~/.icons/bbdock/Mythos/menu.png:xte 'key Print'::
+#~/.icons/bbdock/Mythos/window0.png:xte 'key Pause'::
+#~/.icons/bbdock/Mythos/opera.png:/home/urukrama/.scripts/only_opera::
+#~/.icons/bbdock/Mythos/epiphany.png:/home/urukrama/.scripts/only_epiphany::
+#~/.icons/bbdock/Mythos/squares.png:/home/urukrama/.scripts/only_terminal::
+#~/.icons/bbdock/Mythos/text.png:gedit:*gedit
+#~/.icons/bbdock/Mythos/thunar.png:/home/urukrama/.scripts/only_thunar::
+#~/.icons/bbdock/Mythos/corners.png:gmpc:*gmpc
+#~/.icons/bbdock/Mythos/scale.png:/home/urukrama/.scripts/only_alsamixer::
+
+/home/urukrama/.icons/Somatic-0.2/24x24/apps/accessories-dictionary.png:stardict::
+/home/urukrama/.icons/Somatic-0.2/24x24/apps/opera.png:/home/urukrama/.scripts/only_opera::
+/home/urukrama/.icons/Somatic-0.2/24x24/apps/evolution-2.8.png:icedove:*Icedove
+/home/urukrama/.icons/Somatic-0.2/24x24/apps/gnome-terminal.png:/home/urukrama/.scripts/only_terminal::
+/home/urukrama/.icons/Somatic-0.2/24x24/apps/gedit-icon.png:geany:*Geany
+/home/urukrama/.icons/Somatic-0.2/24x24/apps/nautilus.png:/home/urukrama/.scripts/only_thunar::
+/home/urukrama/.icons/Somatic-0.2/24x24/apps/agave-icon.png:agave:*Agave
+/home/urukrama/.icons/Somatic-0.2/24x24/apps/rhythmbox.png:audacious:*Audacious

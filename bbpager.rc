@@ -1,0 +1,44 @@
+bbpager.withdrawn:     True
+!bbpager.position:               +0-0
+bbpager.desktop.width:          32
+bbpager.desktop.height:         20
+bbpager.desktop.orientation:	vertical
+!bbpager.desktop.columns:               1
+!bbpager.desktop.rows:                  1
+!bbpager.window.focusStyle:      texture
+!bbpager.desktop.focusStyle:	 border
+bbpager.desktopChangeButton:	1
+bbpager.windowMoveButton:      3
+!bbpager.windowFocusButton:	0
+!bbpager.windowRaiseButton:	0
+bbpager.margin:             3
+bbpager.desktop.margin:	 3
+
+! Royalty colours
+bbpager.frame.appearance: flat solid
+bbpager.frame.color:     #262626
+
+bbpager.desktop.appearance: flat solid
+bbpager.desktop.color:     #262626
+
+bbpager.desktop.focus.appearance: flat solid
+bbpager.desktop.focus.color:    #39331b
+
+bbpager.active.desktop.borderColor:	#000000
+bbpager.active.desktop.borderWidth:	0
+
+bbpager.inactive.desktop.borderColor:	#191919
+bbpager.inactive.desktop.borderWidth:	0
+
+bbpager.window.appearance: flat solid
+bbpager.window.color:    #262626
+
+bbpager.window.focus.appearance: flat solid
+bbpager.window.focus.color:     #191919
+bbpager.window.focus.color2:  #191919
+
+bbpager.active.window.borderColor:	#191919
+bbpager.active.window.borderWidth:	1
+
+bbpager.inactive.window.borderColor:	#191919
+bbpager.inactive.window.borderWidth:	1
