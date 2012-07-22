@@ -1,0 +1,117 @@
+! ----------------------------------------------------------------------------
+! file:     ~/.Xdefaults
+! vim:enc=utf-8:nu:ai:si:et:ts=4:sw=4:ft=xdefaults:
+! ----------------------------------------------------------------------------
+
+! Erthe colours
+!*background: #545043
+!*foreground: #DED3B2
+
+! Royalty colours
+*background: #262626
+*foreground: #8f8f8f
+
+! Black + DarkGrey
+*color0:  #3b382f
+*color8:  #A29E87
+! DarkRed + Red
+*color1:  #a68e85
+*color9:  #fcd8ca
+! DarkGreen + Green
+*color2:  #89A150
+*color10: #c8e7a8
+! DarkYellow + Yellow
+*color3:  #e3c85b
+*color11: #FDE68B
+! DarkBlue + Blue
+*color4:  #6299b2
+*color12: #b6d3e3
+! DarkMangenta + Mangenta
+*color5:  #54434F
+*color13: #e3b6d8
+!DarkCyan + Cyan
+*color6:  #9B96B0
+*color14: #d3cafc
+! LightGrey + White
+*color7:  #a8a597
+*color15: #fcf8e3
+
+xft.dpi:                      96
+xft.antialias:                  true
+Xft.lcdfilter:                  lcdfilterlegacy
+Xft.hintstyle:                  hintfull
+
+Xcursor.theme:HumanAzul2
+
+
+!###############
+!###  urxvt  ###
+!###############
+*font:		xft:DejaVu Sans Mono:size=8:VL Gothic:size=7:antialias=true:hinting=true
+*boldFont: 	xft:DejaVu Sans Mono:size=8:VL Gothic:size=7:antialias=true:bold:hinting=true
+!Erthe icon 
+!URxvt.iconFile:	/home/urukrama/.icons/ACYL_Icon_Theme_0.9.3/scalable/apps/terminal.svg
+!Somatic icon
+URxvt.iconFile:	/home/urukrama/.icons/Somatic-0.2/scalable/apps/terminal.png
+
+URxvt*inheritPixmap: 	False
+URxvt*cursorBlink:      False
+URxvt*cutchars:		`'",;@&*=|?()<>[]{}
+
+URxvt*scrollstyle:	plain
+URxvt*mouseWheelScrollPage:	False
+URxvt*jumpScroll:       False
+URxvt*skipScroll:       False
+URxvt*scrollBar: 	False
+URxvt*scrollTtyOutput:      False
+URxvt*secondaryScroll:	  False
+
+!#URxvt.perl-ext-common:	default,tabbed
+URxvt.tabbed.tabbar-fg:         1
+URxvt.tabbed.tabbar-bg:         0
+URxvt.tabbed.tab-fg:            1
+URxvt.tabbed.tab-bg:            0
+
+URxvt*urlLauncher:	opera
+URxvt*saveLines::       32767
+
+
+!################
+!###  xclock  ###
+!################
+xclock*foreground:      rgb:FE/FE/FE
+xclock*background:      rgb:79/A3/DD
+xclock*border:          rgb:79/A3/DD
+xclock*highlight:       rgb:FE/FE/FE
+xclock*hands:           rgb:FE/FE/FE
+xclock*analog:          true
+
+!###############
+!###   lal   ###
+!###############
+lal*color: #9dad9c
+#lal*font: nu
+lal*font: Corbel
+lal*fontsize: 10
+lal*format: %H:%M
+lal*width: 35
+
+!###############
+!###   tdc   ###
+!###############
+tdc*color: #9dad9c
+tdc*bold: true
+tdc*font: Corbel
+tdc*fontsize: 12
+tdc*format: %H:%M
+tdc*width: 35
+tdc*enable-cal: true
+tdc*calfont: monospace
+tdc*calfontsize: 11
+
+
+!xpdf
+xpdf.initialZoom: width
+xpdf*urlCommand:        /usr/bin/opera %s
+xpdf*antialias:         yes
+xpdf*enableFreetype:    yes
