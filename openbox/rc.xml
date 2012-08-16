@@ -359,7 +359,7 @@
     </keybind>
     <keybind key="W-p">
       <action name="execute">
-        <execute>/home/urukrama/.scripts/OBdmenu</execute>
+        <execute>/home/urukrama/.scripts/Dmenu_raise.sh</execute>
       </action>
     </keybind>
     <keybind key="A-F1">
