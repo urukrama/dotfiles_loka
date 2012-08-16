@@ -1,0 +1,103 @@
+#!/bin/bash
+
+FILEMAN='/home/urukrama/.scripts/only_thunar'
+
+prog="9menu
+awesomerc
+awesome-dir
+bashrc
+bbdock
+bbpager
+bbtime
+bin
+clock-awesome
+config-dmenu
+conky
+dmenu-cache
+dzen-calendar
+dzen-remind
+fonts
+fonts.conf
+gtkrc
+gtkrc.mine
+icons
+menu.xml
+mpdconf
+netwmpager
+ob-autostart
+osdsh
+osdsh-theme
+pekwm-autoproperties
+pekwm-config
+pekwm-keys
+pekwm-menu
+pekwm-mouse
+pekwm-start
+pypanelrc
+rc.xml
+remind-awesome
+reminders
+rtorrentrc
+screenrc
+scripts
+shutdown
+sithwmrc
+skippyrc
+themes
+xdefaults
+xlock
+xlocktext
+xsession-errors"
+
+cmd=$(dmenu -nb '#08090a' -nf '#4b555e' -sb '#4b555e' -sf '#8fa1b2' -fn "-*-nu-*-*-*-*-*-110-*-*-*-*-*-*" <<< "$prog")
+
+case ${cmd%% *} in
+	9menu)		exec mousepad "/home/urukrama/.9menurc";;
+	gtkrc)		exec mousepad "/home/urukrama/.gtkrc-2.0"  ;;
+	xdefaults)	exec mousepad "/home/urukrama/.Xdefaults"	;;
+	bashrc)		exec mousepad "/home/urukrama/.bashrc"	;;
+	awesomerc)	exec mousepad "/home/urukrama/.awesomerc"	;;
+	reminders)	exec mousepad "/home/urukrama/.reminders"	;;
+	gtkrc.mine)	exec mousepad "/home/urukrama/.gtkrc.mine"	;;
+	fonts.conf)	exec mousepad "/home/urukrama/.fonts.conf"	;;
+	mpdconf)	exec mousepad "/home/urukrama/.mpdconf"	;;
+	screenrc)	exec mousepad "/home/urukrama/.screenrc"	;;
+	xsession-errors) exec mousepad "/home/urukrama/.xsession-errors"  ;;
+	themes)		exec $FILEMAN "/home/urukrama/.themes/"	;;
+	icons)		exec $FILEMAN "/home/urukrama/.icons"	;;
+	fonts)		exec $FILEMAN "/home/urukrama/.fonts"	;;
+	scripts)	exec $FILEMAN "/home/urukrama/.scripts/"	;;
+	themes)		exec $FILEMAN "/home/urukrama/.themes/"	;;
+	awesome-dir)	exec $FILEMAN "/home/urukrama/.awesome/"	;;
+	bin)		exec $FILEMAN "/home/urukrama/Desktop/Bin"	;;
+	shutdown)	exec mousepad "/home/urukrama/.scripts/shutdown"	;;
+	dzen-calendar)	exec mousepad "/home/urukrama/.scripts/dzen_calendar_awesome"	;;
+	dzen-remind)	exec mousepad "/home/urukrama/.scripts/dzen_remind_awesome"	;;
+	remind-awesome)	exec mousepad "/home/urukrama/.awesome/awesome-remind.sh"	;;
+	clock-awesome)	exec mousepad "/home/urukrama/.awesome/awesome-clock.sh"	;;
+	config-dmenu)	exec mousepad "/home/urukrama/.scripts/config_dmenu_script"  ;;
+	netwmpager)	exec mousepad "/home/urukrama/.config/netwmpager/config"  ;;
+	osdsh)		exec mousepad "/home/urukrama/.config/osdsh/osdsh_script"  ;;
+	osdsh-theme)	exec mousepad "/home/urukrama/.config/osdshawesome"  ;;
+	conky)		exec mousepad "/home/urukrama/.conkyrc"  ;;
+	dmenu-cache)	exec mousepad "/home/urukrama/.dmenu_cache"  ;;
+	xlock)		exec mousepad "/home/urukrama/.scripts/xlock"	;;
+	xlocktext)	exec mousepad "/home/urukrama/.scripts/xlocktext"	;;
+	pypanelrc)	exec mousepad "/home/urukrama/.pypanelrc"	;;
+	rc.xml)		exec mousepad "/home/urukrama/.config/openbox/rc.xml"	;;
+	menu.xml)	exec mousepad "/home/urukrama/.config/openbox/menu.xml"	;;
+	skippyrc)	exec mousepad "/home/urukrama/.skippyrc"	;;
+	sithwmrc)	exec mousepad "/home/urukrama/.sithwmrc"	;;
+	pekwm-keys)	exec mousepad "/home/urukrama/.pekwm/keys"	;;
+	pekwm-mouse)	exec mousepad "/home/urukrama/.pekwm/mouse"	;;
+	pekwm-config)	exec mousepad "/home/urukrama/.pekwm/config"	;;
+	pekwm-autoproperties)	exec mousepad "/home/urukrama/.pekwm/autoproperties"	;;
+	pekwm-menu)	exec mousepad "/home/urukrama/.pekwm/menu"	;;
+	pekwm-start)	exec mousepad "/home/urukrama/.pekwm/start"	;;
+	ob-autostart)	exec mousepad "/home/urukrama/.config/openbox/autostart.sh"	;;
+	bbpager)	exec mousepad "/home/urukrama/.bbtools/bbpager.rc"	;;
+	bbtime)		exec mousepad "/home/urukrama/.bbtools/bbtime.nobb"	;;
+	bbdock)		exec mousepad "/home/urukrama/.bbdockrc"	;;
+	rtorrentrc)	exec mousepad "/home/urukrama/.rtorrentrc"	;;
+  	*)		exec "'${cmd}'"  ;;
+esac
