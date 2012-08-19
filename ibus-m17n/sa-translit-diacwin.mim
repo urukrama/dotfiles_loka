@@ -1,0 +1,46 @@
+;;; <li> sa-diacwin.mim
+;;;
+;;; Input method for Sanskrit transliteration for Unicode fonts, using the old diacwin input method.
+
+(input-method sa translit-diacwin)
+
+(title "ka")
+
+(map
+(trans
+
+(";a" "ā")
+(";A" "Ā")
+(";i" "ī")
+(";I" "Ī")
+(";u" "ū")
+(";U" "Ū")
+(";r" "ṛ")
+(";rr" "ṝ")
+(";R" "Ṛ")
+(";RR" "Ṝ")
+(";l" "ḷ")
+(";L" "Ḷ")
+(";g" "ṅ")
+(";G" "Ṅ")
+(";j" "ñ")
+(";J" "Ñ")
+(";t" "ṭ")
+(";T" "Ṭ")
+(";d" "ḍ")
+(";D" "Ḍ")
+(";n" "ṇ")
+(";N" "Ṇ")
+(";z" "ś")
+(";Z" "Ś")
+(";s" "ṣ")
+(";S" "Ṣ")
+(";m" "ṃ")
+(";M" "Ṃ")
+(";h" "ḥ")
+(";H" "Ḥ")
+))
+
+(state
+(init
+(trans))) 
